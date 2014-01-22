@@ -1,0 +1,32 @@
+{
+  "name": "selenium-global",
+  "version": "0.1.0",
+  "description": "Adds Selenium constructors to global. Useful with <code>mocha -r selenium-global 'test/browser/**/*.js;</code> etc.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -r './index.js' -r should 'test/**/*.js'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jsdevel/node-selenium-global.git"
+  },
+  "keywords": [
+    "selenium",
+    "global",
+    "webdriver",
+    "sync"
+  ],
+  "author": "Joseph Spencer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jsdevel/node-selenium-global/issues"
+  },
+  "homepage": "https://github.com/jsdevel/node-selenium-global",
+  "dependencies": {
+    "webdriver-sync": "~0.8.7"
+  },
+  "devDependencies": {
+    "mocha": "~1.17.0",
+    "should": "~3.0.1"
+  }
+}
