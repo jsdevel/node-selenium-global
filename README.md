@@ -1,7 +1,7 @@
 selenium-global
 ===============
 
-Adds Selenium constructors to global.
+Adds Selenium constructors to the global object for easier testing.
 
 ##Example
 We can run mocha suites I.E. <code>mocha -r selenium-global -r should 'test/**/*.js'</code>
