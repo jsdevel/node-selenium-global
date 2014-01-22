@@ -1,6 +1,6 @@
 {
   "name": "selenium-global",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Adds Selenium constructors to the global object for easier testing.",
   "main": "index.js",
   "scripts": {
